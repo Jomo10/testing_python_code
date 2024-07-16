@@ -1,0 +1,4 @@
+from PIL import Image 
+image_path ='/Users/yousifalani/Desktop/testing_python_code/Unknown.jpeg'
+image = Image.open(image_path)
+ image.show()
